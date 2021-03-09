@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="91840" started-at="2021-01-17T12:54:31 BDT" finished-at="2021-01-17T12:56:03 BDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="91840" started-at="2021-01-17T12:54:31 BDT" finished-at="2021-01-17T12:56:03 BDT">
+      <class name="com.ProductOrder.TC_ProductOrder">
+        <test-method status="PASS" signature="launchChrome()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="launchChrome" is-config="true" duration-ms="6894" started-at="2021-01-17T12:54:31 BDT" finished-at="2021-01-17T12:54:38 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchChrome -->
+        <test-method status="PASS" signature="startReports()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="startReports" is-config="true" duration-ms="122" started-at="2021-01-17T12:54:38 BDT" depends-on-methods="com.Base.BaseClass.launchChrome" finished-at="2021-01-17T12:54:38 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReports -->
+        <test-method status="PASS" signature="productTest()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="productTest" duration-ms="14417" started-at="2021-01-17T12:54:38 BDT" finished-at="2021-01-17T12:54:53 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="getResult" is-config="true" duration-ms="18" started-at="2021-01-17T12:54:53 BDT" finished-at="2021-01-17T12:54:53 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productTest status=SUCCESS method=TC_ProductOrder.productTest()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="productTest2()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="productTest2" duration-ms="17017" started-at="2021-01-17T12:54:53 BDT" finished-at="2021-01-17T12:55:10 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="getResult" is-config="true" duration-ms="2" started-at="2021-01-17T12:55:10 BDT" finished-at="2021-01-17T12:55:10 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productTest2 status=SUCCESS method=TC_ProductOrder.productTest2()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="productTest3()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="productTest3" duration-ms="18202" started-at="2021-01-17T12:55:10 BDT" finished-at="2021-01-17T12:55:28 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest3 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-17T12:55:28 BDT" finished-at="2021-01-17T12:55:28 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productTest3 status=SUCCESS method=TC_ProductOrder.productTest3()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="productTest4()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="productTest4" duration-ms="17532" started-at="2021-01-17T12:55:28 BDT" finished-at="2021-01-17T12:55:45 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest4 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="getResult" is-config="true" duration-ms="1" started-at="2021-01-17T12:55:45 BDT" finished-at="2021-01-17T12:55:45 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productTest4 status=SUCCESS method=TC_ProductOrder.productTest4()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="productTest5()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="productTest5" duration-ms="17255" started-at="2021-01-17T12:55:45 BDT" finished-at="2021-01-17T12:56:03 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productTest5 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="getResult" is-config="true" duration-ms="0" started-at="2021-01-17T12:56:03 BDT" finished-at="2021-01-17T12:56:03 BDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=productTest5 status=SUCCESS method=TC_ProductOrder.productTest5()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testComplete()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="testComplete" is-config="true" duration-ms="326" started-at="2021-01-17T12:56:03 BDT" finished-at="2021-01-17T12:56:03 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testComplete -->
+        <test-method status="PASS" signature="tearDownChrome()[pri:0, instance:com.ProductOrder.TC_ProductOrder@60285225]" name="tearDownChrome" is-config="true" duration-ms="1" started-at="2021-01-17T12:56:03 BDT" depends-on-methods="com.ProductOrder.TC_ProductOrder.testComplete" finished-at="2021-01-17T12:56:03 BDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownChrome -->
+      </class> <!-- com.ProductOrder.TC_ProductOrder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
